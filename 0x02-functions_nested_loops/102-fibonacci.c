@@ -12,7 +12,7 @@ int main(void)
 
 	x = 1;
 	y = 2;
-	printf("%ld", "%ld", x, y);
+	printf("%ld, %ld", x, y);
 	for (f = 0; f < 48; f++)
 	{
 		z = x + y;
@@ -20,7 +20,7 @@ int main(void)
 		x = y;
 		y = z;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
 
