@@ -30,4 +30,6 @@ char *_strncat(chat *dest, char *src, int n)
 	}
 	dest[m + i] = '\0';
 	return (dest);
+
 }
+
